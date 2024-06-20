@@ -1,7 +1,7 @@
 rm(list = ls())
 #Set Working Directory and read file
 setwd("C:/Users/Lenovo/Desktop/Applied Machine")
-df <- read.csv('Final_Heart_Disease_NA.csv', header = TRUE)
+df <- read.csv('Final_Heart_Disease_NA.csv', header = TRUE)   
 
 # Input libraries 
 library(dplyr)
